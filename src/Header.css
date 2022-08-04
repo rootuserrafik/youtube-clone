@@ -1,0 +1,43 @@
+/* Header CSS */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: #fffffffa;
+    z-index: 9999;
+}
+.header__logo{
+    height: 25px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+.search__area{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+}
+.search__area > input {
+    flex: 1;
+    border: none;
+    padding: 5px;
+}
+.search__input{
+    
+}
+.search__btn{
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+}
+.header__right__icons{
+    margin-right: 5px;
+}

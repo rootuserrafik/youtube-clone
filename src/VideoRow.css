@@ -1,0 +1,31 @@
+.Video__Row{
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+.VideoRow_Thumb{
+    object-fit: contain;
+    width: 246px;
+    height: 138px;
+}
+.VideoRow__Text {
+    margin-left: 14px;
+}
+.VideoRowText__Update{
+    font-size: 12px;
+    color: #606060;
+}
+.VideoRow__Subs{
+    background-color: lightgray;
+    padding: 2px;
+    margin: 2px;
+}
+.VideoRow__NumberOfSubs{
+    font-weight: bolder;
+    color: rgb(84, 157, 211);
+}
+.VideoRowText__Description{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #606060;
+}
